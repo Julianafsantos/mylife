@@ -5,6 +5,9 @@ body {
     padding: 0;
     color: #333;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Estilo do cabeçalho, com fundo azul e alinhamento central */
@@ -68,6 +71,7 @@ main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
 }
 
 /* Estilo do rodapé, com fundo azul e texto branco */
@@ -77,48 +81,4 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-}
-
-/* Estilo moderno para o formulário de contato */
-form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-/* Estilo dos rótulos do formulário */
-form label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
-/* Estilo dos campos de texto e área de texto */
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Estilo do botão de envio */
-form input[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-/* Efeito de destaque no botão de envio ao passar o mouse */
-form input[type="submit"]:hover {
-    background-color: #0056b3;
 }
