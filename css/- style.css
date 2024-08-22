@@ -31,8 +31,8 @@ nav ul li {
     margin: 0 10px; /* Espaçamento entre os botões */
 }
 
-/* Estilo dos links no menu de navegação com botões cinza claro */
-nav ul li a {
+/* Estilo dos links no menu de navegação com botões cinza claro e moldura */
+nav ul li a.button {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -40,17 +40,18 @@ nav ul li a {
     background-color: #d3d3d3; /* Cor cinza claro para o botão */
     border-radius: 5px; /* Cantos arredondados para os botões */
     transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
+    display: inline-block; /* Garante que os links sejam exibidos como botões */
+    border: 2px solid #007BFF; /* Adiciona uma moldura azul ao redor dos botões */
 }
 
 /* Efeito de destaque ao passar o mouse sobre os links */
-nav ul li a:hover {
+nav ul li a.button:hover {
     background-color: #FFD700; /* Altera a cor do botão ao passar o mouse */
     color: #333; /* Altera a cor do texto ao passar o mouse */
 }
 
 /* Estilo da seção de destaque com imagem de fundo personalizada */
 .hero {
-    background-image: url('../images/pc.jpg'); /* Caminho para a imagem pc.jpg */
     background-size: cover;
     background-position: center;
     color: #fff;
