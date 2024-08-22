@@ -28,20 +28,24 @@ nav ul {
 
 /* Espaçamento e estilo dos links de navegação */
 nav ul li {
-    margin: 0 15px;
+    margin: 0 10px; /* Espaçamento entre os botões */
 }
 
-/* Estilo dos links no menu de navegação */
+/* Estilo dos links no menu de navegação com botões cinza claro */
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
+    padding: 10px 20px; /* Padding para criar o botão */
+    background-color: #d3d3d3; /* Cor cinza claro para o botão */
+    border-radius: 5px; /* Cantos arredondados para os botões */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave */
 }
 
 /* Efeito de destaque ao passar o mouse sobre os links */
 nav ul li a:hover {
-    color: #FFD700;
+    background-color: #FFD700; /* Altera a cor do botão ao passar o mouse */
+    color: #333; /* Altera a cor do texto ao passar o mouse */
 }
 
 /* Estilo da seção de destaque com imagem de fundo personalizada */
