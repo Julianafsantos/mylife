@@ -44,9 +44,9 @@ nav ul li a:hover {
     color: #FFD700;
 }
 
-/* Estilo da seção de destaque com imagem de fundo */
+/* Estilo da seção de destaque com imagem de fundo personalizada */
 .hero {
-    background-image: url('https://via.placeholder.com/1500x500');
+    background-image: url('../images/pc.jpg'); /* Caminho para a imagem pc.jpg */
     background-size: cover;
     background-position: center;
     color: #fff;
