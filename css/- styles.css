@@ -19,6 +19,8 @@ header {
 
 a {
     color:rgb(234, 213, 236);
+    text-decoration: none;
+    margin-right: 30px; 
 }
 
 /* Estilo da lista de navegação, tornando-a horizontal */
