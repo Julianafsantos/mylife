@@ -17,13 +17,18 @@ header {
     text-align: center;
 }
 
+a {
+    color:rgb(234, 213, 236);
+}
+
 /* Estilo da lista de navegação, tornando-a horizontal */
-nav ul {
+nav ul.nav-links {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+    background-color: #c8a2c8; /* Fundo lilás para a linha dos links */
 }
 
 /* Espaçamento e estilo dos links de navegação */
@@ -31,8 +36,14 @@ nav ul li {
     margin: 0 10px; /* Espaçamento entre os botões */
 }
 
+span {
+    display: inline-block;
+    background-color: aqua ;
+    width: 10px;   
+    height: 10px;
+}
 /* Estilo dos links no menu de navegação com botões cinza claro e moldura */
-nav ul li a.button {
+#button {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -45,8 +56,8 @@ nav ul li a.button {
 }
 
 /* Efeito de destaque ao passar o mouse sobre os links */
-nav ul li a.button:hover {
-    background-color: #FFD700; /* Altera a cor do botão ao passar o mouse */
+#button:hover {
+    background-color: #aebee0; /* Altera a cor do botão ao passar o mouse */
     color: #333; /* Altera a cor do texto ao passar o mouse */
 }
 
@@ -54,7 +65,7 @@ nav ul li a.button:hover {
 .hero {
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #5cbbe7;
     text-align: center;
     padding: 100px 20px;
 }
